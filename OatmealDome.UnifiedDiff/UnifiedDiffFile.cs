@@ -4,7 +4,7 @@ using DiffPlex.DiffBuilder.Model;
 
 namespace OatmealDome.UnifiedDiff;
 
-public class UnifiedDiffFile
+public sealed class UnifiedDiffFile
 {
     // The maximum amount of DiffPieces to queue before giving up on merging the current hunk with the next.
     private const int AdjacentPieceMergeCount = 3;
