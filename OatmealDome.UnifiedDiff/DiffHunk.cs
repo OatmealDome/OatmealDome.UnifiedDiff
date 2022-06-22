@@ -3,7 +3,7 @@ using DiffPlex.DiffBuilder.Model;
 
 namespace OatmealDome.UnifiedDiff;
 
-public class DiffHunk
+public sealed class DiffHunk
 {
     public int AlphaStart
     {
